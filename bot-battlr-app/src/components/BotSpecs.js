@@ -43,7 +43,7 @@ export default function BotSpecs({ bot, handleGoBack, handleEnlist, handleRetire
 }
 
 function Slider({ percent }) {
-    const spring = useSpring({
+    const spring = animated.useSpring({
         from: {
             width: 0
         },
